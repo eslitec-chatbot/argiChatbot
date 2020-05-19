@@ -1,0 +1,47 @@
+Dialogflow Request body: {
+    "responseId": "cbe49f7c-2b1d-4ddf-872d-fe6203a40904",
+    "queryResult": {
+        "queryText": "hello",
+        "action": "input.unknown",
+        "parameters": {},
+        "allRequiredParamsPresent": true,
+        "fulfillmentText": "I didn't get that. Can you say it again?",
+        "fulfillmentMessages": [
+            {
+                "text": {
+                    "text": [
+                        "Can you say that again?"
+                    ]
+                }
+            }
+        ],
+        "intent": {
+            "name": "projects/test-f1989/agent/intents/98893e54-c797-46fc-b8ca-99ac4f20450b",
+            "displayName": "Default Fallback Intent",
+            "isFallback": true
+        },
+        "intentDetectionConfidence": 1,
+        "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+        "source": "line",
+        "payload": {
+            "data": {
+                "replyToken": "6c3d8c2da48b472790311cef6465122a",
+                "source": {
+                    "type": "user",
+                    "userId": "U7df9e7c26a78823be8e1fb89e6f17de5"
+                },
+                "type": "message",
+                "message": {
+                    "id": "9706747306620",
+                    "text": "hello",
+                    "type": "text"
+                },
+                "timestamp": 1555469643996
+            },
+            "source": "line"
+        }
+    },
+    "session": "projects/test-f1989/agent/sessions/4126cc57-f3a1-4f41-8b9b-6412a9fc7b82"
+}
