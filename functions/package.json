@@ -16,7 +16,7 @@
   "dependencies": {
     "@google-cloud/datastore": "1.1.0",
     "actions-on-google": "^2.6.0",
-    "ajv": "^5.0.0",
+    "ajv": "^6.12.3",
     "apiai": "^4.0.3",
     "dialogflow-fulfillment": "git+https://github.com/naranjja/dialogflow-fulfillment-nodejs.git",
     "facebookgraph": "^0.4.0",
